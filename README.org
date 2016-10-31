@@ -1,0 +1,7 @@
+* alpine-tmux
+This is a simple Docker image containing tmux.
+
+** Build it
+** Use it
+Start a server like this `docker run -ti sduckett/alpine-tmux:latest /usr/bin/tmux new-session -s fun-and-profit`
+Then you can connect to the running container like this `docker exec -ti d5a8776a6c2f tmux attach` where the container id fits your world.
