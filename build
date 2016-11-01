@@ -1,1 +1,1 @@
-docker build -t sduckett/alpine-tmux:latest .
+docker build --no-cache -t sduckett/alpine-tmux:latest .
