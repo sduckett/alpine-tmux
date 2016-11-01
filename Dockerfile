@@ -8,3 +8,4 @@ USER tmuxer
 WORKDIR /home/tmuxer
 
 COPY tmux.conf /home/tmuxer/.tmux.conf
+COPY zshrc /home/tmuxer/.zshrc
